@@ -32,7 +32,7 @@ FluxCP already separates module logic from view templates. That makes the migrat
   - route pages mirroring Flux modules
   - shared UI components preserving the current look
 
-## Recommended migration phases
+## Next migration phases
 
 ### Phase 1
 
