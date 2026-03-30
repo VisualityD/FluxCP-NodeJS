@@ -1,0 +1,41 @@
+#root {
+  width: 100%;
+}
+
+body.theme-default #root {
+  min-width: 960px;
+}
+
+#logo {
+  display: block;
+}
+
+#content h2 {
+  margin-top: 0;
+}
+
+.modern-status-table {
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+
+.modern-status-table th,
+.modern-status-table td {
+  padding: 8px;
+  border: 1px solid #d8e3ef;
+  text-align: left;
+}
+
+.modern-status-table th {
+  background: #eaf1f8;
+}
+
+.flux-link-button {
+  background: none;
+  border: 0;
+  color: #4083c6;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+  text-decoration: underline;
+}

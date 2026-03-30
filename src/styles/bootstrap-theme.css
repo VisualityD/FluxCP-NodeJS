@@ -1,0 +1,427 @@
+body.theme-bootstrap {
+  background: #ffffff;
+  margin: 0 0 60px;
+  min-height: 100%;
+  padding-top: 70px;
+  position: relative;
+}
+
+.flux-theme-bootstrap,
+.flux-theme-bootstrap * {
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.bootstrap-navbar {
+  min-height: 50px;
+}
+
+.bootstrap-navbar-fixed-top {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 30;
+}
+
+.bootstrap-navbar-inverse {
+  background-color: #222;
+  border-bottom: 1px solid #080808;
+  color: #9d9d9d;
+}
+
+.bootstrap-container {
+  max-width: 1170px;
+  width: calc(100% - 30px);
+  margin: 0 auto;
+}
+
+.bootstrap-navbar-shell {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  min-height: 50px;
+}
+
+.bootstrap-navbar-header {
+  align-items: center;
+  display: flex;
+}
+
+.bootstrap-navbar-brand {
+  color: #9d9d9d;
+  display: block;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.bootstrap-navbar-brand:hover {
+  color: #ffffff;
+}
+
+.bootstrap-navbar-collapse {
+  flex: 1;
+}
+
+.bootstrap-nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bootstrap-dropdown {
+  position: relative;
+}
+
+.bootstrap-nav-group summary {
+  color: #9d9d9d;
+  cursor: pointer;
+  list-style: none;
+  padding: 15px;
+  user-select: none;
+}
+
+.bootstrap-nav-group summary::-webkit-details-marker {
+  display: none;
+}
+
+.bootstrap-nav-group[open] summary,
+.bootstrap-nav-group summary:hover {
+  background-color: #080808;
+  color: #ffffff;
+}
+
+.bootstrap-caret {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px dashed;
+  display: inline-block;
+  height: 0;
+  margin-left: 4px;
+  vertical-align: middle;
+  width: 0;
+}
+
+.bootstrap-dropdown-menu {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-width: 160px;
+  overflow: hidden;
+  position: absolute;
+  top: 100%;
+  z-index: 20;
+}
+
+.bootstrap-nav-link {
+  color: #333333;
+  display: block;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+.bootstrap-nav-link:last-child {
+  border-bottom: 0;
+}
+
+.bootstrap-nav-link:hover,
+.bootstrap-nav-link.is-active {
+  background: #f5f5f5;
+  color: #262626;
+}
+
+.bootstrap-user-meta {
+  align-items: center;
+  color: #9d9d9d;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.bootstrap-navbar-right {
+  margin-left: auto;
+}
+
+.bootstrap-ghost-button,
+.bootstrap-link-button {
+  background: transparent;
+  border: 1px solid #555555;
+  border-radius: 4px;
+  color: #9d9d9d;
+  cursor: pointer;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.bootstrap-ghost-button:hover,
+.bootstrap-link-button:hover {
+  background: #080808;
+  color: #ffffff;
+}
+
+.bootstrap-shell-main {
+  padding: 0 0 24px;
+}
+
+.bootstrap-info-banner {
+  background: #d9edf7;
+  border: 1px solid #bce8f1;
+  border-radius: 4px;
+  color: #31708f;
+  margin-bottom: 16px;
+  padding: 12px 14px;
+}
+
+.bootstrap-panel {
+  background: #ffffff;
+  padding: 0;
+}
+
+.bootstrap-panel h2 {
+  color: #333333;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0 0 16px;
+}
+
+.flux-theme-bootstrap h3 {
+  border-bottom: 1px solid #eeeeee;
+  color: #333333;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 22px;
+  padding-bottom: 8px;
+  text-transform: none;
+}
+
+.flux-theme-bootstrap p,
+.flux-theme-bootstrap li,
+.flux-theme-bootstrap td,
+.flux-theme-bootstrap th,
+.flux-theme-bootstrap label,
+.flux-theme-bootstrap input,
+.flux-theme-bootstrap select,
+.flux-theme-bootstrap textarea,
+.flux-theme-bootstrap button {
+  font-size: 14px;
+}
+
+.flux-theme-bootstrap a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.flux-theme-bootstrap a:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+.flux-theme-bootstrap input[type="text"],
+.flux-theme-bootstrap input[type="password"],
+.flux-theme-bootstrap input[type="file"],
+.flux-theme-bootstrap select,
+.flux-theme-bootstrap textarea {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  color: #555555;
+  display: inline-block;
+  min-height: 34px;
+  padding: 6px 12px;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.flux-theme-bootstrap input[type="text"]:focus,
+.flux-theme-bootstrap input[type="password"]:focus,
+.flux-theme-bootstrap input[type="file"]:focus,
+.flux-theme-bootstrap select:focus,
+.flux-theme-bootstrap textarea:focus {
+  border-color: #66afe9;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  outline: 0;
+}
+
+.flux-theme-bootstrap button,
+.flux-theme-bootstrap input[type="submit"],
+.flux-theme-bootstrap input[type="button"] {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  color: #333333;
+  cursor: pointer;
+  padding: 6px 12px;
+}
+
+.flux-theme-bootstrap button:hover,
+.flux-theme-bootstrap input[type="submit"]:hover,
+.flux-theme-bootstrap input[type="button"]:hover {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+.flux-theme-bootstrap .search-form {
+  background: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  padding: 12px 14px;
+}
+
+.flux-theme-bootstrap .search-form p {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+  margin: 0;
+}
+
+.flux-theme-bootstrap .search-form label {
+  color: #555555;
+  font-weight: 700;
+}
+
+.flux-theme-bootstrap .search-form button {
+  margin-left: 2px;
+}
+
+.flux-theme-bootstrap .vertical-table,
+.flux-theme-bootstrap .horizontal-table {
+  border-collapse: collapse;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.flux-theme-bootstrap .vertical-table th,
+.flux-theme-bootstrap .vertical-table td,
+.flux-theme-bootstrap .horizontal-table th,
+.flux-theme-bootstrap .horizontal-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+.flux-theme-bootstrap .vertical-table th,
+.flux-theme-bootstrap .horizontal-table th {
+  background: #f9f9f9;
+  color: #333333;
+  font-weight: 700;
+  text-align: left;
+}
+
+.flux-theme-bootstrap .vertical-table tr:nth-child(even) td {
+  background: #fcfcfc;
+}
+
+.flux-theme-bootstrap .notice {
+  background: #fcf8e3;
+  border: 1px solid #faebcc;
+  border-radius: 4px;
+  color: #8a6d3b;
+  padding: 10px 12px;
+}
+
+.flux-theme-bootstrap .red {
+  background: #f2dede;
+  border: 1px solid #ebccd1;
+  border-radius: 4px;
+  color: #a94442;
+  padding: 10px 12px;
+}
+
+.flux-theme-bootstrap pre {
+  background: #f5f5f5;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  overflow-x: auto;
+  padding: 10px 12px;
+  white-space: pre-wrap;
+}
+
+.bootstrap-shell-footer {
+  background-color: #f5f5f5;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  /* bottom: 0; */
+}
+
+.bootstrap-shell-footer-inner {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  min-height: 60px;
+}
+
+.bootstrap-shell-footer-inner p,
+.bootstrap-shell-footer-inner .text-muted {
+  color: #777777;
+  margin: 0;
+}
+
+.bootstrap-theme-selector select {
+  margin-left: 6px;
+}
+
+.market-shop-title {
+  font-style: italic;
+  margin-bottom: 2px;
+  text-align: right;
+}
+
+.market-shop-meta {
+  color: #337ab7;
+  margin-bottom: 16px;
+  text-align: right;
+}
+
+.market-price {
+  color: #8a6d3b;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .bootstrap-navbar-shell,
+  .bootstrap-shell-footer-inner {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .bootstrap-user-meta {
+    justify-content: flex-start;
+  }
+
+  .bootstrap-dropdown-menu {
+    position: static;
+  }
+
+  body.theme-bootstrap {
+    margin-bottom: 100px;
+    padding-top: 120px;
+  }
+
+  .bootstrap-shell-footer {
+    height: auto;
+  }
+
+  .bootstrap-shell-footer-inner {
+    min-height: 0;
+    padding: 12px 0;
+  }
+
+  .flux-theme-bootstrap .search-form p {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}
