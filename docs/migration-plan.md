@@ -84,9 +84,3 @@ FluxCP already separates module logic from view templates. That makes the migrat
 - `modules/server/status.php` -> `modern/src/pages/ServerStatusPage.tsx` + `modern/server`
 - `themes/default/*` -> `modern/src/components/*` + `modern/public/legacy-theme/*`
 
-## Important constraints
-
-- Preserve current menu structure and route semantics to avoid breaking user expectations
-- Preserve original assets and CSS first, then modernize markup gradually
-- Keep rAthena-specific behavior in backend services, not in React components
-- Recreate FluxCP permissions explicitly; do not hide them inside UI conditionals only
